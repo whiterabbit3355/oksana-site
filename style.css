@@ -197,3 +197,13 @@ blockquote { font-size: 22px; }
   .principles { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; }
   .principles > div { border-top: 1px solid #d9cfdf; }
 }
+
+/* Explicit opt-in for both consent fields. */
+.consent a{color:#78528d;text-decoration:underline;text-underline-offset:3px}.consent a:focus-visible{outline:2px solid #9063a6;outline-offset:3px}.consent-note{font-size:12px;line-height:1.5;color:var(--muted);margin:0}.submit-request:disabled{opacity:.5;cursor:not-allowed;filter:none;transform:none;box-shadow:none}
+
+/* Direct contact panel: no form or visitor data collection. */
+#chat{width:min(620px,calc(100% - 28px));max-height:90dvh;border-radius:26px}#chat .chat-body{max-height:70dvh;overflow-y:auto}.direct-contact .contact-intro{font-size:16px;line-height:1.6;margin:0 0 24px}.messenger-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}.messenger-card{display:flex;flex-direction:column;align-items:center;text-align:center;padding:20px 8px;border:1px solid #e2cee9;border-radius:20px;background:linear-gradient(135deg,#faf0fc,#fbeef5);color:#78548c;gap:8px}.messenger-card svg{width:38px;height:38px}.messenger-card strong{font-size:16px;font-weight:500}.messenger-card small{font-size:11px;color:#82718b;line-height:1.4}.contact-alternative{font-size:15px;margin:26px 0 12px}.contact-other{display:grid;grid-template-columns:1fr 1fr;gap:12px}.contact-other>a,.contact-other>div{display:flex;align-items:center;gap:12px;border:1px solid #e2cee9;border-radius:16px;padding:14px;color:#78548c;text-decoration:none;font-size:14px}.contact-other svg{width:28px;height:28px;flex-shrink:0}.contact-other small{display:block;font-size:11px;color:#82718b}.contact-other a:hover{background:#f5e8fa}.reply-note{font-size:15px;line-height:1.7;margin:26px 0 0;padding-top:20px;border-top:1px solid #e8dceb;color:#82718b}.reply-note span{display:block;margin-top:10px;font-family:Georgia,serif;font-style:italic;color:#9063a6;font-size:19px}@media(max-width:420px){.messenger-grid{gap:7px}.messenger-card{padding:16px 5px}.messenger-card strong{font-size:14px}.contact-other{grid-template-columns:1fr}#chat .chat-body{padding:20px}}
+
+a.messenger-card{text-decoration:none}a.messenger-card:hover{background:#efdef6}a.messenger-card:focus-visible{outline:2px solid #9063a6;outline-offset:3px}.contact-other a span,.contact-grid a{overflow-wrap:anywhere;min-width:0}
+
+.messenger-fallback{font-size:12px;line-height:1.7;color:var(--muted);margin:14px 0}.messenger-fallback a{color:#78548c;text-decoration:underline;text-underline-offset:3px}
